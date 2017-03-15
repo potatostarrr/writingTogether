@@ -1,6 +1,5 @@
 {
   "entry": "src/index.js",
-
   "env": {
     "development": {
       "extraBabelPlugins": [

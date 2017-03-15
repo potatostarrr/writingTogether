@@ -4,7 +4,7 @@
 import React from 'react'
 import {Link} from 'dva/router'
 import {Row, Col, Icon} from 'antd'
-import styles from './HeaderTemp.less'
+import styles from '../less/components/HeaderTemp.less'
 
 
 export default ({children})=>{

@@ -5,34 +5,12 @@
  * Created by tengzhongwei on 2/22/17.
  */
 import React from 'react'
-import styles from './RegisterForm.less'
+import styles from '../less/components/RegisterForm.less'
 import { Form, Input, Tooltip, Icon, Cascader, Select, Row, Col, Checkbox, Button } from 'antd';
+import {connect} from 'dva'
+
 const FormItem = Form.Item;
 const Option = Select.Option;
-
-const residences = [{
-  value: 'zhejiang',
-  label: 'Zhejiang',
-  children: [{
-    value: 'hangzhou',
-    label: 'Hangzhou',
-    children: [{
-      value: 'xihu',
-      label: 'West Lake',
-    }],
-  }],
-}, {
-  value: 'jiangsu',
-  label: 'Jiangsu',
-  children: [{
-    value: 'nanjing',
-    label: 'Nanjing',
-    children: [{
-      value: 'zhonghuamen',
-      label: 'Zhong Hua Men',
-    }],
-  }],
-}];
 
 class RegistrationForm extends React.Component {
   state = {
@@ -42,7 +20,8 @@ class RegistrationForm extends React.Component {
     e.preventDefault();
     this.props.form.validateFieldsAndScroll((err, values) => {
       if (!err) {
-        console.log('Received values of form: ', values);
+        //console.log('Received values of form: ', values);
+        this.props.dispatch({type:'try/register', payload:values})
       }
     });
   };
@@ -67,6 +46,9 @@ class RegistrationForm extends React.Component {
   };
   render() {
     const { getFieldDecorator } = this.props.form;
+
+
+    //settings of layout of each element
     const formItemLayout = {
       labelCol: { span: 6 },
       wrapperCol: { span: 14 },
@@ -77,22 +59,15 @@ class RegistrationForm extends React.Component {
         offset: 6,
       },
     };
-    const prefixSelector = getFieldDecorator('prefix', {
-      initialValue: '86',
-    })(
-      <Select className={styles.icpselector}>
-        <Option value="86">+86</Option>
-      </Select>
-    );
     return (
-      <Form onSubmit={this.handleSubmit} className={styles.loginform}>
+      <Form onSubmit={this.handleSubmit} className={styles.registerform}>
         <FormItem
           className={styles.label}
           {...formItemLayout}
           label="E-mail"
           hasFeedback
         >
-          {getFieldDecorator('email', {
+          {getFieldDecorator('username', {
             rules: [{
               type: 'email', message: 'The input is not valid E-mail!',
             }, {
@@ -132,63 +107,6 @@ class RegistrationForm extends React.Component {
             <Input type="password" />
           )}
         </FormItem>
-        <FormItem
-          {...formItemLayout}
-          label={(
-            <span>
-              Nickname&nbsp;
-              <Tooltip title="What do you want other to call you?">
-                <Icon type="question-circle-o" />
-              </Tooltip>
-            </span>
-          )}
-          hasFeedback
-        >
-          {getFieldDecorator('nickname', {
-            rules: [{ required: true, message: 'Please input your nickname!' }],
-          })(
-            <Input />
-          )}
-        </FormItem>
-        <FormItem
-          {...formItemLayout}
-          label="Habitual Residence"
-        >
-          {getFieldDecorator('residence', {
-            initialValue: ['zhejiang', 'hangzhou', 'xihu'],
-            rules: [{ type: 'array', required: true, message: 'Please select your habitual residence!' }],
-          })(
-            <Cascader options={residences} />
-          )}
-        </FormItem>
-        <FormItem
-          {...formItemLayout}
-          label="Phone Number"
-        >
-          {getFieldDecorator('phone', {
-            rules: [{ required: true, message: 'Please input your phone number!' }],
-          })(
-            <Input addonBefore={prefixSelector} />
-          )}
-        </FormItem>
-        <FormItem
-          {...formItemLayout}
-          label="Captcha"
-          extra="We must make sure that your are a human."
-        >
-          <Row gutter={8}>
-            <Col span={12}>
-              {getFieldDecorator('captcha', {
-                rules: [{ required: true, message: 'Please input the captcha you got!' }],
-              })(
-                <Input size="large" />
-              )}
-            </Col>
-            <Col span={12}>
-              <Button size="large">Get captcha</Button>
-            </Col>
-          </Row>
-        </FormItem>
         <FormItem {...tailFormItemLayout} style={{ marginBottom: 8 }}>
           {getFieldDecorator('agreement', {
             valuePropName: 'checked',
@@ -204,4 +122,25 @@ class RegistrationForm extends React.Component {
   }
 }
 
-export default Form.create()(RegistrationForm);
+//for connect redux and react(form)
+const mapStateToProps = (state)=>{
+  return{
+    username: state.try.username,
+  }
+};
+
+//for connect form and react, map props to field
+const mapPropsToFields = (props)=> {
+  return {
+    username: {value: props.username}
+  };
+};
+
+//for connect form and redux, do dispatch when field changed
+const onFieldsChange =(props, changedField)=>{
+};
+
+
+
+const form = Form.create({mapPropsToFields, onFieldsChange})(RegistrationForm);
+export default connect(mapStateToProps)(form)

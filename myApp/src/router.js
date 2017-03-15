@@ -1,10 +1,12 @@
 import React from 'react';
 import { Router, Route } from 'dva/router';
 import IndexPage from './routes/IndexPage';
-import MainPage from  './routes/MainPage'
+import VideoPage from  './routes/VideoPage'
 import LoginPage from './routes/LoginPage'
 import RegisterPage from './routes/RegisterPage'
-import VideoPage from './routes/VideoPage'
+
+import WelcomePage from './routes/WelcomePage'
+import CourseListPage from './routes/CourseListPage'
 
 
 function RouterConfig({ history }) {
@@ -12,13 +14,17 @@ function RouterConfig({ history }) {
     <Router history={history}>
       <Route path="/" component={IndexPage} />
 
-      <Route path='/main' component={MainPage}/>
+      <Route path='/video' component={VideoPage}/>
 
       <Route path='/login' component={LoginPage}/>
 
       <Route path='/register' component={RegisterPage}/>
 
-      <Route path='/video' component={VideoPage}/>
+
+      <Route path='/welcome' component={WelcomePage}/>
+
+      <Route path="/courses" component={CourseListPage}/>
+
     </Router>
   );
 }
