@@ -13,5 +13,7 @@ urlpatterns = [
     url(r'^courses', views.courseList.as_view()),
     url(r'^register',views.register.as_view()),
     url(r'^course/comments', views.courseComments.as_view()),
+    url(r'^course/post/comment', views.postComment.as_view()),
+    url(r'^profile', views.getProfile.as_view())
 ]
 

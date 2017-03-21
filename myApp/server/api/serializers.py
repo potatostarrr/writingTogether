@@ -1,8 +1,8 @@
-from rest_framework.serializers import (ModelSerializer,CharField,ValidationError, StringRelatedField,RelatedField,ReadOnlyField)
+from rest_framework.serializers import (ModelSerializer,DateTimeField, StringRelatedField,RelatedField,ReadOnlyField)
 from django.db.models import  Q
 #from django.contrib.auth.models import User
 from rest_framework_jwt.views import obtain_jwt_token
-from .models import CouserList, CourseComments
+from .models import CouserList, CourseComments, Profile
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
@@ -23,30 +23,37 @@ class UserSerializer(ModelSerializer):
         instance.save()
         return instance
 
-
 class CourseListSerializer(ModelSerializer):
     #username = ReadOnlyField()
     class Meta:
         model = CouserList
         fields = [
-            'courseName',
+            'course_name',
             'courseDescription',
             'preview',
-            'username'
+            'username',
+            'videoId',
         ]
 
 class CourseCommentSerializer(ModelSerializer):
+    post_time = DateTimeField(source="post_date", format="%Y-%m-%d %H:%M:%S")
     class Meta:
         model =CourseComments
         fields = [
             'course_name',
             'username',
-            'post_date',
+            'post_time',
             'content',
         ]
 
+class ProfileSerializer(ModelSerializer):
+    class Meta:
 
-
-
-
-
+        model = Profile
+        fields = [
+            'username',
+            'first_name',
+            'last_name',
+            'stars',
+            'city',
+        ]
