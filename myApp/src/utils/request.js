@@ -10,6 +10,7 @@ function checkStatus(response) {
   }
   const error = new Error(response.statusText);
   error.response = response;
+  error.status = response.status;
   throw error;
 }
 
@@ -21,23 +22,21 @@ function checkStatus(response) {
  * @return {object}           An object containing either "data" or "err"
  */
 
-function parseErrorMessage(err) {
-  console.log('im here')
-  //console.log(err);
-  //console.log({err:err, message: err.responseJSON});
-  // const { status, message } = data;
-  // if (status === 'error') {
-  //   throw new Error(message);
-  // }
-  // return { data };
-}
+// function parseErrorMessage(err) {
+//   console.log('reponse'+err);
+//   const { status, message } = err;
+//   if (status === 'error') {
+//     throw new Error(message);
+//   }
+//   return { data };
+// }
 
 export default function request(url, options) {
   return fetch(url, options)
     .then(checkStatus)
     .then(parseJSON)
-    .then(data => ({ data }))
-    .catch(err => {err});
+    .then(data => ({ data }));
+    //.catch(err => {err});
     //.catch(parseErrorMessage);
 }
 

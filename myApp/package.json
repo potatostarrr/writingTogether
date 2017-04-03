@@ -18,7 +18,9 @@
     "morgan": "^1.8.1",
     "pug": "^2.0.0-beta11",
     "react": "^15.4.0",
+    "react-cookie": "^1.0.4",
     "react-dom": "^15.4.0",
+    "react-timeout": "^1.0.0",
     "react-youtube": "^7.3.0",
     "underscore": "^1.8.3"
   },

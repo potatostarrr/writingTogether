@@ -4,10 +4,10 @@
 import React from 'react'
 import ContentLayout from '../components/MainpageLayout'
 import VideoPart from '../components/VideoPart'
-export default ()=>{
+export default (props)=>{
   return(
       <ContentLayout>
-        <VideoPart/>
+        <VideoPart courseName={props.params.courseName}/>
       </ContentLayout>
   )
 }

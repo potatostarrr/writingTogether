@@ -10,7 +10,7 @@ function indexpage({products}){
   return(
 
       <BasicLayout className={styles.index} >
-        <p className={styles.large}>Writing makes </p>
+        <p className={styles.large}>Writing Together</p>
         <Link to="/login"><Button className={styles.button}>Log In</Button></Link>
         <Link to="/register"><Button className={styles.button}>Sign Up</Button></Link>
        </BasicLayout>

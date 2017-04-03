@@ -3,8 +3,10 @@ const { Header, Sider, Content } = Layout;
 import styles from '../less/components/MainpageLayout.less'
 import {Link} from 'dva/router'
 import SideMenu from './SideMenu'
+import {connect} from 'dva'
+import StarLogo from './StarLogo'
 
-export default class SiderDemo extends React.Component {
+class SiderDemo extends React.Component {
   render() {
     const {children} = this.props;
     return (
@@ -13,12 +15,9 @@ export default class SiderDemo extends React.Component {
           <SideMenu/>
         </Sider>
         <Layout className={styles.rightside}>
-          <Header style={{ background: 'transparent', padding: 0 }}>
-            <Icon
-              className="trigger"
-              type={'menu-fold'}
-            />
-            <span>Home</span>
+          <Header style={{ background: 'transparent', padding: 0}} className={styles.heading}>
+
+            <div style={{height:'inherit'}}><b>{this.props.currentLocation}</b><StarLogo/></div>
           </Header>
           <Content className={styles.content} >
             {children}
@@ -28,3 +27,13 @@ export default class SiderDemo extends React.Component {
     );
   }
 }
+/**
+ * Created by tengzhongwei on 3/19/17.
+ */
+const mapStateToProps= (state)=>{
+  return {currentLocation:state.try.currentLocation}
+};
+
+
+
+export default connect(mapStateToProps)(SiderDemo)

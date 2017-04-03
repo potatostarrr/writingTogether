@@ -8,6 +8,7 @@ import { Form, Icon, Input, Button, Checkbox } from 'antd';
 import styles from '../less/components/LoginForm.less'
 import React from 'react'
 import {connect} from 'dva'
+import {Link} from 'dva/router'
 import {browserHistory} from 'dva/router'
 const FormItem = Form.Item;
 
@@ -20,7 +21,6 @@ class Content extends React.Component {
     e.preventDefault();
     this.props.form.validateFields((err, values) => {
       if (!err) {
-        console.log(this.props.dispatch);
         this.props.dispatch({type:'try/login',payload:values})
       }
     });
@@ -33,14 +33,14 @@ class Content extends React.Component {
           {getFieldDecorator('username', {
             rules: [{ required: true, message: 'Please input your username!' }],
           })(
-            <Input addonBefore={<Icon type="user" />} placeholder="Username" />
+            <Input addonBefore={<Icon type="user" />} placeholder="Username(use example@gmail.com for preview)" />
           )}
         </FormItem>
         <FormItem>
           {getFieldDecorator('password', {
             rules: [{ required: true, message: 'Please input your Password!' }],
           })(
-            <Input addonBefore={<Icon type="lock" />} type="password" placeholder="Password" />
+            <Input addonBefore={<Icon type="lock" />} type="password" placeholder="Password(12345678)" />
           )}
         </FormItem>
         <FormItem>
@@ -54,7 +54,7 @@ class Content extends React.Component {
           <Button type="primary" htmlType="submit" className={styles.loginformbutton}>
             Log in
           </Button>
-          Or <a>register now!</a>
+          Or <Link to="/register">register now!</Link>
         </FormItem>
       </Form>
     );

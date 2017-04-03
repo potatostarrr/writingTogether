@@ -10,7 +10,11 @@ import styles from '../less/components/HeaderTemp.less'
 export default ({children})=>{
   return(
     <Row className={styles.row}>
-      <Col span={2}><Link to="/"> <img className={styles.img} src="https://s-media-cache-ak0.pinimg.com/236x/85/b6/ba/85b6ba598cc309e8cf00e990a5249419.jpg"/></Link></Col>
+      <Col span={2}>
+        <Link to="/">
+          <img className={styles.img} src="https://www.graphicsprings.com/filestorage/stencils/e00014ed17521da3f415162fd9e6771e.png?width=500&height=500"/>
+        </Link>
+      </Col>
       <Col offset={17} span={5} className={styles.menu}>
         {children}
       </Col>

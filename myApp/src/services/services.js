@@ -1,4 +1,5 @@
 import request from '../utils/request';
+import cookie from 'react-cookie';
 
 export async function query() {
   return request('/api/users');
@@ -27,26 +28,14 @@ export async function register(body) {
 
 
 //using  token to get user directly
-// export async function getCourseList(body) {
-//   const {token} = body;
-//   return request('/api/courses',{
-//     method: 'GET',
-//     headers: {
-//       "Content-Type": "application/json",
-//       "Authorization": "jwt "+token,
-//     },
-//   })
-// }
-
-//just for test, using username get list
 export async function getCourseList(body) {
-  const {token,username} = body;
+  //token = window.sessionStorage.getItem('token');
+  const token = cookie.load('token');
   return request('/api/courses',{
-    method: 'POST',
-    body:JSON.stringify({'username':username}),
+    method: 'GET',
     headers: {
       "Content-Type": "application/json",
-      //"Authorization": "jwt "+token,
+      "Authorization": "jwt "+token,
     },
   })
 }
@@ -54,11 +43,51 @@ export async function getCourseList(body) {
 //get comments for a course video
 export async function getComments(body) {
   const {courseName} = body;
+  const token = cookie.load('token');
   return request('/api/course/comments',{
     method: 'POST',
     body: JSON.stringify({courseName:courseName}),
     headers:{
       "Content-Type": "application/json",
+      "Authorization": "jwt "+token,
     },
   })
 }
+
+//post  comment(for test, use user)
+export async function postComment(body) {
+  const {courseName, content} = body;
+  const token = cookie.load('token');
+  return request('/api/course/post/comment',{
+    method:'POST',
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "jwt "+token,
+    },
+    body: JSON.stringify({courseName, content}),
+  })
+}
+
+export async function getProfile() {
+  const token = cookie.load('token');
+  return request('/api/profile',{
+    method:'GET',
+    headers:{
+      "Content-Type": "application/json",
+      "Authorization": "jwt "+token,
+    },
+  })
+}
+
+export async function tokenCheck() {
+  const token = cookie.load('token');
+  return request('api/api-token-verify/',{
+    method:'POST',
+    headers:{
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({token}),
+  })
+
+}
+

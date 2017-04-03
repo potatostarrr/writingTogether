@@ -1,5 +1,5 @@
-
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
 html, body, :global(#root) {
   height: 100%;
+  font-family: 'Baloo Bhaina', cursive;
 }
-
