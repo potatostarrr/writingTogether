@@ -4,8 +4,9 @@
 import React from 'react'
 import {Link} from 'dva/router'
 import {Row, Col, Card} from 'antd'
-import ContentLayout from '../components/MainpageLayout'
-import VideoPart from '../components/VideoPart'
+import ContentLayout from '../components/MainPage/MainpageLayout'
+import WoodBoard from '../components/plugin/WoodBoard'
+import VideoPart from '../components/MiniLessons/VideoAndComment'
 import styles from '../less/routes/WelcomePage.less'
 import CardLink from '../utils/CardLink'
 import {connect} from 'dva'
@@ -26,36 +27,28 @@ class WelcomePage extends React.Component{
     return (
       <ContentLayout>
         <Row type="flex" justify="center">
-          <h3 className={styles.heading}>Online Writing Community</h3>
+          <h3 className={styles.heading}>Writing Community</h3>
         </Row>
+
         <Row className={styles.imageContainer}>
-
           <Row type="flex" justify="space-around" className={styles.row}>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/MiniLesson.jpeg" to='courses'
-                      text="Mini Lessons" onClick={this.cardOnClick.bind(this)} />
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/WechatIMG6.jpeg" to=""
-                      text="Discussion Board"/>
+            <WoodBoard text="Mini Lesson" to="lessons/units"/>
+            <WoodBoard text="Discussion Board" to="discussion/units"/>
           </Row>
 
           <Row type="flex" justify="space-around" className={styles.row}>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/WechatIMG7.jpeg" to=""
-                      text="Model Writing"/>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/WritingTopic.jpeg" to=""
-                      text="Writing Topic"/>
+            <WoodBoard text="Model Writing" to="model/units"/>
+            <WoodBoard text="Writing Topic" to="/topic/units"/>
           </Row>
 
           <Row type="flex" justify="space-around" className={styles.row}>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/Reading.jpeg" to=""
-                      text="Reading"/>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/MyWriting.jpeg" to=""
-                      text="My Writing"/>
+            <WoodBoard text="Reading" to="reading/units"/>
+            <WoodBoard text="My Writing" to="my-writing/units"/>
           </Row>
 
           <Row type="flex" justify="space-around" className={styles.row}>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/WritingCoference.jpeg" to=""
-                      text="Writing Conference"/>
-            <CardLink url="https://s3-us-west-2.amazonaws.com/zhongweisfierstbucket/GroupWork.jpeg" to=""
-                      text="Group Work"/>
+            <WoodBoard text="Writing Conference" to="conferences"/>
+            <WoodBoard text="Publication" to="publication"/>
           </Row>
         </Row>
       </ContentLayout>

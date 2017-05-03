@@ -1,19 +1,37 @@
 import React from 'react';
 import { Router, Route ,IndexRoute} from 'dva/router';
 import IndexPage from './routes/IndexPage';
-import VideoPage from  './routes/VideoPage'
+import VideoPage from  './routes/LessonVideoPage'
 import LoginPage from './routes/LoginPage'
 import RegisterPage from './routes/RegisterPage'
 
 import WelcomePage from './routes/WelcomePage'
-import CourseListPage from './routes/CourseListPage'
+import UnitListPage from './routes/UnitListPage'
 import ReLogin from './routes/ReLoginPage'
-import WritingPage from './routes/WritingPage'
-import WritingSharePage from './routes/WritingSharePage'
-import DiscussionBoardPage from './routes/DiscussionBoardPage'
-import WritingConferencePage from './routes/WritingConferencePage'
 import ProfilePage from './routes/ProfilePage'
-import WritingTopicPage from './routes/WritingTopicPage'
+import LessonUnitPage from './routes/LessonUnitPage'
+
+import TopicUnitListPage from './routes/TopicUnitListPage'
+import TopicDetailPage from './routes/TopicDetailPage'
+
+import ReadingUnitListPage from './routes/ReadingUnitListPage'
+import ReadingUnitPage from './routes/ReadingUnitPage'
+
+import DiscussionUnitListPage from './routes/DiscussionUnitListPage'
+import DiscussionDetailPage from './routes/DiscussionDetailPage'
+
+import ModelUnitListPage from './routes/ModelUnitListPage'
+import ModelDetailPage from './routes/ModelDetailPage'
+
+import PublicationPage from './routes/PublicationPage'
+
+import MyWritingUnitListPage from './routes/MyWritingUnitListPage'
+import MyWritingDetailPage from './routes/MyWritingDetailPage'
+
+import ConferenceListPage from './routes/ConferenceListPage'
+import ConferenceDetailPage from './routes/ConferenceDetailPage'
+
+import DiaryPage from './routes/DiaryPage'
 
 import { message} from 'antd';
 function RouterConfig({ history }) {
@@ -23,36 +41,47 @@ function RouterConfig({ history }) {
   });
   return (
     <Router history={history}>
-      <Route path="/">
-        <IndexRoute component={IndexPage} />
-        <Route path='video/:courseName' component={VideoPage}/>
+      <Route path="/" component={IndexPage} />
 
-        <Route path='login' component={LoginPage}/>
+      <Route path="lessons/units" component={UnitListPage}/>
 
-        <Route path='register' component={RegisterPage}/>
+      <Route path="lessons/units/unit1" component={LessonUnitPage}/>
 
-        <Route path='profile' component={ProfilePage}/>
+      <Route path='lessons/units/unit1/videos/1' component={VideoPage}/>
 
-        <Route path='welcome' component={WelcomePage}/>
+      <Route path='login' component={LoginPage}/>
 
-        <Route path="courses" component={CourseListPage}/>
+      <Route path='register' component={RegisterPage}/>
 
-        <Route path="expired" component={ReLogin}/>
+      <Route path='profile' component={ProfilePage}/>
+      <Route path='welcome' component={WelcomePage}/>
 
-        <Route path="teacher" component = {WritingSharePage}/>
+      <Route path="expired" component={ReLogin}/>
 
-        <Route path="peer" component={WritingSharePage}/>
+      <Route path='topic/units' component={TopicUnitListPage}/>
+      <Route path='topic/units/unit1' component={TopicDetailPage}/>
 
-        <Route path="writing" component={WritingPage}/>
+      <Route path="reading/units" component={ReadingUnitListPage}/>
+      <Route path="reading/:unit/:book" component={ReadingUnitPage}/>
 
-        <Route path="discussions" component={DiscussionBoardPage}/>
 
-        <Route path="conferences" component={WritingConferencePage}/>
-      </Route>
+      <Route path="discussion/units" component={DiscussionUnitListPage}/>
+      <Route path="discussion/units/:unit" component={DiscussionDetailPage}/>
 
-      <Route path='topic'>
-        <IndexRoute component={WritingTopicPage}/>
-      </Route>
+      <Route path="model/units" component={ModelUnitListPage}/>
+      <Route path="model/units/:unit" component={ModelDetailPage}/>
+
+      <Route path="publication" component={PublicationPage}/>
+
+      <Route path="my-writing/units" component={MyWritingUnitListPage}/>
+      <Route path="my-writing/units/:unit" component={MyWritingDetailPage}/>
+
+      <Route path="conferences" component={ConferenceListPage}/>
+      <Route path="conferences/:unit" component={ConferenceDetailPage}/>
+
+      <Route path="diary" component={DiaryPage}/>
+
+
     </Router>
   );
 }

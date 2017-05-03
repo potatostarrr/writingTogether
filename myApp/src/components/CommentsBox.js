@@ -25,8 +25,8 @@ class CommentsBox extends React.Component{
   }
 
   componentWillMount(){
-    this.getComments();
-    this.props.dispatch({type:'changeCommentsPage', payload:{currentCommentsPage:1}})
+    //this.getComments();
+   // this.props.dispatch({type:'changeCommentsPage', payload:{currentCommentsPage:1}})
   }
 
   mapCommentsToDOM(){
@@ -54,11 +54,13 @@ class CommentsBox extends React.Component{
 
   render(){
     const { getFieldDecorator } = this.props.form;
+    const { hint } = this.props;
+
     return(
         <Card title="Comments" bordered={false} className={styles.box}>
           <Form onSubmit={this.handleSubmit}>
             <Row>
-              <Tag color="blue">What have you learned from lesson?</Tag>
+              <Tag color="blue">{hint?hint:"What have you learned from lesson?"}</Tag>
               {getFieldDecorator('content', {
                 rules: [{ required: true, message: 'Post can not be Null' }],
               })(
@@ -73,7 +75,7 @@ class CommentsBox extends React.Component{
             this.props.comments.length>0?
               this.mapCommentsToDOM()
               :<p>Nothing in there, comment now</p>
-            :<p>Loading...<Spin/></p>}
+            :<div>Loading...<Spin/></div>}
           {this.props.comments?
             <Pagination total={this.props.comments.length} defaultPageSize={this.props.defaultPageSize}
                         onChange={this.pageOnChange.bind(this)}/>:null}'

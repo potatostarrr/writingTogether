@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'dva/router'
-import BasicLayout from '../components/PreviewLayout'
+import BasicLayout from '../components/BeforeLogin/LoginLayout'
 import styles from '../less/routes/IndexPage.less'
 import {Button} from 'antd'
 import {connect} from 'dva'

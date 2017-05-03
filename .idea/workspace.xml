@@ -2,93 +2,399 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5acc5ce8-06be-4268-ba8f-dffc28c81835" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/WritingTopic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/less/components/StarLogo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/WritingTopicPage.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/.idea/server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/Procfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/authentication.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0002_auto_20170310_2250.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0003_auto_20170314_0525.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0004_auto_20170314_0606.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0005_auto_20170315_0624.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0006_auto_20170316_0411.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0007_couserlist_videoid.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0008_auto_20170320_1905.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0009_profile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/0010_auto_20170320_2118.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/serializers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/api/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/api/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/api/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/index/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/settings/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/settings/local.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/settings/production.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/settings_local.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/server/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/server/templates/index_local.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/StarSign.js" afterPath="$PROJECT_DIR$/myApp/src/components/StarLogo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/assets/ReadingExample.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/assets/SunIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/assets/modelWriting.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/public/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionDetailLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionUnitList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MainPage/MainPageHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MainPage/MainpageLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MiniLessons/VideoAndComment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/ModelWriting/ModelDetailLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/ModelWriting/ModelWritingUnitList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MyDiary/DiaryLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingDetailLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingUnitList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/Publication/Publication.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnitList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/TopMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/VideoBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceDetailLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/WritingTopic/TopicDetailLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/plugin/Calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/plugin/EditorPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/plugin/Headshot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/plugin/HeadshotArea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/components/plugin/WoodBoard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/less/components/plugin/WoodBoard.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ConferenceDetailPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ConferenceListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/DiaryPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/DiscussionDetailPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/DiscussionUnitListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/LessonUnitPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/LessonVideoPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ModelDetailPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ModelUnitListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/MyWritingDetailPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/MyWritingUnitListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/PublicationPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ReadingUnitListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/ReadingUnitPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/TopicDetailPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApp/src/routes/TopicUnitListPage.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftBlockTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftBlockTag.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/DiscussionBoard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/DiscussionBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/MainpageLayout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/VideoPart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/WritingBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/WritingConference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/components/WritingShare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/DiscussionBoardPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/VideoPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/WritingConferencePage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/WritingPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/WritingSharePage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myApp/src/routes/WritingTopicPage.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/CourseList.js" afterPath="$PROJECT_DIR$/myApp/src/backup/CourseList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/HeaderTemp.js" afterPath="$PROJECT_DIR$/myApp/src/components/BeforeLogin/HeaderTemp.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/LoginForm.js" afterPath="$PROJECT_DIR$/myApp/src/components/BeforeLogin/LoginForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/PreviewLayout.js" afterPath="$PROJECT_DIR$/myApp/src/components/BeforeLogin/LoginLayout.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/Profile.js" afterPath="$PROJECT_DIR$/myApp/src/components/MainPage/Profile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/ReLogin.js" afterPath="$PROJECT_DIR$/myApp/src/components/BeforeLogin/ReLogin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/RegisterForm.js" afterPath="$PROJECT_DIR$/myApp/src/components/BeforeLogin/RegisterForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/SideMenu.js" afterPath="$PROJECT_DIR$/myApp/src/backup/SideMenu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/StarLogo.js" afterPath="$PROJECT_DIR$/myApp/src/components/MainPage/StarLogo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/components/Video.js" afterPath="$PROJECT_DIR$/myApp/src/backup/Video.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myApp/src/routes/CourseListPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/UnitListPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/.roadhogrc" afterPath="$PROJECT_DIR$/myApp/.roadhogrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/dist/index.css" afterPath="$PROJECT_DIR$/myApp/dist/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/dist/index.js" afterPath="$PROJECT_DIR$/myApp/dist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/dist/index.html" afterPath="$PROJECT_DIR$/myApp/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/CHANGELOG.md" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/README.md" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.css" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.min.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/dist/Draft.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/BlockTree.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/BlockTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/BlockTree.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/BlockTree.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CharacterMetadata.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CharacterMetadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CharacterMetadata.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CharacterMetadata.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ComposedEntityType.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ComposedEntityType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ComposedEntityType.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ComposedEntityType.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CompositeDraftDecorator.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CompositeDraftDecorator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CompositeDraftDecorator.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/CompositeDraftDecorator.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentBlock.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentBlock.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentState.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentState.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentState.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentState.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentStateInlineStyle.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/ContentStateInlineStyle.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DOMDerivedSelection.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DOMDerivedSelection.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DefaultDraftBlockRenderMap.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DefaultDraftBlockRenderMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DefaultDraftBlockRenderMap.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DefaultDraftBlockRenderMap.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/Draft.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/Draft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/Draft.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/Draft.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftBlockRenderConfig.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftBlockRenderConfig.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftDecorator.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftDecorator.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftDecoratorType.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftDecoratorType.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditor.react.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditor.react.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditor.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditor.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorBlock.react.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorBlock.react.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorBlock.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorBlock.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorCompositionHandler.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorCompositionHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorCompositionHandler.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorCompositionHandler.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorContents.react.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorContents.react.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorContents.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorContents.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorDragHandler.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorDragHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorDragHandler.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorDragHandler.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorLeaf.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorLeaf.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorPlaceholder.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorPlaceholder.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorProps.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorProps.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorTextNode.react.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEditorTextNode.react.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntity.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntity.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntity.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntityType.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftEntityType.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftModifier.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftModifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftModifier.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftModifier.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftPasteProcessor.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftPasteProcessor.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftRemovableWord.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftRemovableWord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftRemovableWord.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/DraftRemovableWord.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorState.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorState.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorState.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorState.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorStateCreationConfig.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/EditorStateCreationConfig.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/KeyBindingUtil.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/KeyBindingUtil.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/RichTextEditorUtil.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/RichTextEditorUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/RichTextEditorUtil.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/RichTextEditorUtil.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/SelectionState.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/SelectionState.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromDraftStateToRaw.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromDraftStateToRaw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromDraftStateToRaw.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromDraftStateToRaw.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromHTMLToContentBlocks.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromHTMLToContentBlocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromHTMLToContentBlocks.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromHTMLToContentBlocks.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromRawToDraftState.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromRawToDraftState.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromRawToDraftState.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/convertFromRawToDraftState.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBeforeInput.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBeforeInput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBeforeInput.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBeforeInput.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBlur.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBlur.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBlur.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnBlur.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCompositionStart.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCompositionStart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCompositionStart.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCompositionStart.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCopy.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCopy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCopy.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCopy.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCut.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCut.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCut.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnCut.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragOver.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragOver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragOver.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragOver.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragStart.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragStart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragStart.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnDragStart.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnFocus.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnFocus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnFocus.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnFocus.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnInput.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnInput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnInput.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnInput.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnKeyDown.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnKeyDown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnKeyDown.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnKeyDown.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnPaste.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnPaste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnPaste.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnPaste.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnSelect.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnSelect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnSelect.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/editOnSelect.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/expandRangeToStartOfLine.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/expandRangeToStartOfLine.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/findRangesImmutable.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/findRangesImmutable.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getCharacterRemovalRange.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getCharacterRemovalRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getCharacterRemovalRange.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getCharacterRemovalRange.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getDefaultKeyBinding.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getDefaultKeyBinding.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getEntityKeyForSelection.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getEntityKeyForSelection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getEntityKeyForSelection.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getEntityKeyForSelection.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getSampleStateForTesting.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getSampleStateForTesting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getSampleStateForTesting.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getSampleStateForTesting.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getUpdatedSelectionState.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/getUpdatedSelectionState.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isEventHandled.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isEventHandled.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isSelectionAtLeafStart.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isSelectionAtLeafStart.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isSoftNewlineEvent.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/isSoftNewlineEvent.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/removeEntitiesAtEdges.js" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/removeEntitiesAtEdges.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/removeEntitiesAtEdges.js.flow" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/lib/removeEntitiesAtEdges.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/draft-js/package.json" afterPath="$PROJECT_DIR$/myApp/node_modules/draft-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/CHANGELOG.md" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/af.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/az.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/be.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/bg.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/br.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/bs.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cs.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cy.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/da.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/de-at.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/de-at.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/de.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/el.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-au.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-gb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-ie.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-nz.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/en-nz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/eo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/es-do.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/es-do.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/es.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/et.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/eu.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fa.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr-ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr-ch.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr-ch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fy.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/fy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/gd.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/gd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/gl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hu.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hy-am.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/hy-am.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/is.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/it.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ja.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ka.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/kk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/kk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ko.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ky.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lt.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/me.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/mi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/mi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/mk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nl-be.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nl-be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nn.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/nn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pt-br.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pt.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ru.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/se.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/se.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/si.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sq.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sr-cyrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ss.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ta.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/ta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/te.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/te.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tet.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/th.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tl-ph.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tl-ph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tlh.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tlh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tzl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/tzl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/uk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/vi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/x-pseudo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/x-pseudo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/yo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/yo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-cn.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-hk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-hk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-tw.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/locale/zh-tw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/min/locales.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/min/locales.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/min/locales.min.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/min/locales.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment-with-locales.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment-with-locales.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment-with-locales.min.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment-with-locales.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment.min.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/min/moment.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/moment.d.ts" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/moment.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/moment.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/package.json" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/date-from-array.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/date-from-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-anything.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-anything.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-array.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-string-and-format.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-string-and-format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-string.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/from-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/parsing-flags.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/create/parsing-flags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/as.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/as.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/constructor.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/constructor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/create.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/get.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/get.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/humanize.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/humanize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/iso-string.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/iso-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/prototype.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/duration/prototype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/format/format.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/format/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/base-config.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/base-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/en.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/ordinal.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/ordinal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/relative.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/relative.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/set.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/locale/set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/moment/constructor.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/moment/constructor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/moment/format.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/moment/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/day-of-month.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/day-of-month.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/day-of-week.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/day-of-week.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/hour.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/hour.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/month.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/month.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/offset.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/week-calendar-utils.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/lib/units/week-calendar-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/af.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/az.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/be.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/bg.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/br.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/bs.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cs.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cy.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/da.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/de-at.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/de-at.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/de.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/el.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-au.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-gb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-ie.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-nz.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/en-nz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/eo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/es-do.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/es-do.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/es.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/et.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/eu.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fa.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr-ca.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr-ch.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr-ch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fy.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/fy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/gd.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/gd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/gl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hu.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hy-am.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/hy-am.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/is.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/it.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ja.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ka.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/kk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/kk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ko.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ky.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lt.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/me.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/mi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/mi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/mk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nb.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nl-be.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nl-be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nn.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/nn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pt-br.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pt.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ru.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/se.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/se.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/si.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sq.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sr-cyrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ss.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sv.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ta.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/ta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/te.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/te.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tet.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/th.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tl-ph.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tl-ph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tlh.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tlh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tr.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tzl.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/tzl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/uk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/vi.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/x-pseudo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/x-pseudo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/yo.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/yo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-cn.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-hk.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-hk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-tw.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/locale/zh-tw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/node_modules/moment/src/moment.js" afterPath="$PROJECT_DIR$/myApp/node_modules/moment/src/moment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/package.json" afterPath="$PROJECT_DIR$/myApp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/public/index.html" afterPath="$PROJECT_DIR$/myApp/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/CommentsBox.js" afterPath="$PROJECT_DIR$/myApp/src/components/CommentsBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/CourseList.js" afterPath="$PROJECT_DIR$/myApp/src/components/CourseList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/HeaderTemp.js" afterPath="$PROJECT_DIR$/myApp/src/components/HeaderTemp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/LoginForm.js" afterPath="$PROJECT_DIR$/myApp/src/components/LoginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/MainpageLayout.js" afterPath="$PROJECT_DIR$/myApp/src/components/MainpageLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/PreviewLayout.js" afterPath="$PROJECT_DIR$/myApp/src/components/PreviewLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/Profile.js" afterPath="$PROJECT_DIR$/myApp/src/components/Profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/SideMenu.js" afterPath="$PROJECT_DIR$/myApp/src/components/SideMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/Video.js" afterPath="$PROJECT_DIR$/myApp/src/components/Video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/VideoPart.js" afterPath="$PROJECT_DIR$/myApp/src/components/VideoPart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/index.css" afterPath="$PROJECT_DIR$/myApp/src/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/components/WritingTopic.js" afterPath="$PROJECT_DIR$/myApp/src/components/WritingTopic.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/index.js" afterPath="$PROJECT_DIR$/myApp/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/CourseList.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/CourseList.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/MainpageLayout.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/MainpageLayout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/PreviewLayout.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/PreviewLayout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/Profile.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/Profile.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/SideMenu.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/SideMenu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/components/VideoPart.less" afterPath="$PROJECT_DIR$/myApp/src/less/components/VideoPart.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/routes/IndexPage.less" afterPath="$PROJECT_DIR$/myApp/src/less/routes/IndexPage.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/less/routes/WelcomePage.less" afterPath="$PROJECT_DIR$/myApp/src/less/routes/WelcomePage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/models/models.js" afterPath="$PROJECT_DIR$/myApp/src/models/models.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/router.js" afterPath="$PROJECT_DIR$/myApp/src/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/IndexPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/IndexPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/LoginPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/LoginPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/ProfilePage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/ProfilePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/VideoPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/VideoPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/ReLoginPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/ReLoginPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/RegisterPage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/RegisterPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/routes/WelcomePage.js" afterPath="$PROJECT_DIR$/myApp/src/routes/WelcomePage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/services/services.js" afterPath="$PROJECT_DIR$/myApp/src/services/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/src/utils/request.js" afterPath="$PROJECT_DIR$/myApp/src/utils/request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,101 +412,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/services/services.js">
+      <file leaf-file-name="MainPageHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/components/MainPage/MainPageHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myApp/src/utils/request.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/models/models.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#158#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/.eslintrc">
+      <file leaf-file-name="WelcomePage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/routes/WelcomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoPart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/components/VideoPart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="58" selection-end-column="2" />
+            <state relative-caret-position="390">
+              <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
-                <element signature="e#934#2029#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Video.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/components/Video.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WritingTopic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingTopic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="e#47#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/routes/ProfilePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#47#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WritingTopicPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/src/routes/WritingTopicPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#47#72#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,12 +440,64 @@
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="452">
+              <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#917#1716#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWritingDetailPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/routes/MyWritingDetailPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1493772639000" expanded="true" signature="53:270" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".roadhogrc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myApp/.roadhogrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConferenceList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWritingUnitListPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/routes/MyWritingUnitListPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWritingUnitList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingUnitList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -246,9 +529,15 @@
       <find>dis</find>
       <find>consol</find>
       <find>type='flex' justify='center'</find>
+      <find>Page</find>
+      <find>Pagi</find>
+      <find>ContentLayout</find>
+      <find>Spin</find>
+      <find>Comment</find>
     </findStrings>
     <replaceStrings>
       <replace>comments</replace>
+      <replace>UnitLayout</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -257,57 +546,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myApp/src/components/WritingBox.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/WritingSharePage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/WritingPage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/WritingShare.js" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/WritingShare.less" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/DiscussionBoard.less" />
-        <option value="$PROJECT_DIR$/myApp/src/components/DiscussionBoard.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/DiscussionBoardPage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/DiscussionBox.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/WritingConferencePage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/WritingConference.js" />
-        <option value="$PROJECT_DIR$/myApp/package.json" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/SideMenu.less" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/MainpageLayout.less" />
-        <option value="$PROJECT_DIR$/myApp/src/index.css" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/VideoPart.less" />
-        <option value="$PROJECT_DIR$/myApp/src/less/routes/WelcomePage.less" />
-        <option value="$PROJECT_DIR$/myApp/src/utils/CardLink.less" />
-        <option value="$PROJECT_DIR$/myApp/src/components/ReLogin.js" />
-        <option value="$PROJECT_DIR$/myApp/src/backup/MainpageLayoutVertical.js" />
-        <option value="$PROJECT_DIR$/myApp/src/backup/SideMenuVertical.js" />
-        <option value="$PROJECT_DIR$/myApp/src/backup/MainVertical.less.js" />
-        <option value="$PROJECT_DIR$/myApp/src/backup/MainVertical.less" />
-        <option value="$PROJECT_DIR$/myApp/src/backup/SideMenu.less" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/VideoPage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/Video.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/CommentsBox.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/VideoPart.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/ProfilePage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/Profile.js" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/Profile.less" />
-        <option value="$PROJECT_DIR$/myApp/.roadhogrc" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/IndexPage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/less/routes/IndexPage.less" />
-        <option value="$PROJECT_DIR$/myApp/src/utils/CardLink.js" />
-        <option value="$PROJECT_DIR$/myApp/src/services/services.js" />
-        <option value="$PROJECT_DIR$/myApp/src/models/models.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/WelcomePage.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/CourseList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/CourseListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/BeforeLogin/LoginLayout.js" />
         <option value="$PROJECT_DIR$/myApp/src/index.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/HeaderTemp.js" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/PreviewLayout.less" />
-        <option value="$PROJECT_DIR$/myApp/src/components/PreviewLayout.js" />
-        <option value="$PROJECT_DIR$/myApp/src/less/components/StarLogo.less" />
-        <option value="$PROJECT_DIR$/myApp/src/components/MainpageLayout.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/StarLogo.js" />
-        <option value="$PROJECT_DIR$/myApp/src/routes/WritingTopicPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/UnitListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/LessonVideoPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MainPage/MainpageLayout.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/UnitPage/UnitLayout.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/plugin/HeadshotArea.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/CommentsBox.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitLayout.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/LessonUnitPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MiniLessons/VideoAndComment.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/TopicUnitListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ReadingUnitListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/TopicDetailPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnit.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ReadingUnitPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/DiscussionBoardPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionDetailLayout.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/DiscussionDetailPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ModelUnitListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/ModelWriting/ModelWritingUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ModelDetailPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/Publication.js" />
+        <option value="$PROJECT_DIR$/myApp/src/Publication/Publication.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/PublicationPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/plugin/Headshot.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/Publication/Publication.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/MyWritingUnitListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/public/DraftStyleDefault.css" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/EditorPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/plugin/Editor.less" />
+        <option value="$PROJECT_DIR$/myApp/src/components/plugin/EditorPage.js" />
+        <option value="$PROJECT_DIR$/myApp/public/index.html" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ConferenceListPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/ConferenceDetailPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MyDiary/DiaryLayout.js" />
+        <option value="$PROJECT_DIR$/myApp/public/editor.css" />
+        <option value="$PROJECT_DIR$/myApp/src/components/plugin/Calendar.js" />
         <option value="$PROJECT_DIR$/myApp/src/router.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/WritingTopic.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/SideMenu.js" />
-        <option value="$PROJECT_DIR$/myApp/src/components/LoginForm.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/DiaryPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/WritingTopic/TopicUnitList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/WelcomePage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/routes/MyWritingDetailPage.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceList.js" />
+        <option value="$PROJECT_DIR$/myApp/src/components/MainPage/MainPageHeader.js" />
+        <option value="$PROJECT_DIR$/myApp/.roadhogrc" />
       </list>
     </option>
   </component>
@@ -345,6 +634,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,94 +662,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="writingTogether" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,16 +682,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myApp/server/templates" />
-      <recent name="$PROJECT_DIR$/myApp/server" />
-      <recent name="$PROJECT_DIR$/myApp/src/components" />
-      <recent name="$PROJECT_DIR$/myApp/src/components/MainPageContent" />
+      <recent name="$PROJECT_DIR$/myApp/src/assets" />
+      <recent name="$PROJECT_DIR$/myApp/src/routes" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/MyDiary" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/WritingConference" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/MyWriting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myApp/src/less/routes" />
-      <recent name="$PROJECT_DIR$/myApp/src/less/components" />
-      <recent name="$PROJECT_DIR$/myApp/src/less" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/plugin" />
       <recent name="$PROJECT_DIR$/myApp/src/components" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/MiniLessons" />
+      <recent name="$PROJECT_DIR$/myApp/src/components/BeforeLogin" />
+      <recent name="$PROJECT_DIR$/myApp/src/backup" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
@@ -597,12 +804,20 @@
       <workItem from="1490375483515" duration="176000" />
       <workItem from="1490480319654" duration="144000" />
       <workItem from="1490496470058" duration="2910000" />
-      <workItem from="1491179033513" duration="129000" />
+      <workItem from="1491179033513" duration="9129000" />
+      <workItem from="1491264862161" duration="142000" />
+      <workItem from="1491265632890" duration="18000" />
+      <workItem from="1491268627561" duration="1924000" />
+      <workItem from="1491271370611" duration="1900000" />
+      <workItem from="1491336991040" duration="45000" />
+      <workItem from="1492126871305" duration="1000000" />
+      <workItem from="1492202139591" duration="3108000" />
+      <workItem from="1493659117154" duration="22063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195483000" />
+    <option name="totallyTimeSpent" value="234683000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,24 +830,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22875299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2192216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3219178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26027396" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,381 +858,465 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/myApp/src/components/WritingTopic/TopicUnitList.js</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myApp/.jshintrc">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="161">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#47#96#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillMount#0;n#courseList#0" expanded="false" />
+            <element signature="n#!!block;n#pageOnChange#0;n#courseList#0" expanded="false" />
+            <element signature="n#!!block;n#onSearchChange#0;n#courseList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/.editorconfig">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MiniLessons/LessonUnitLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="3">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#139#201#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/.gitignore">
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/LessonUnitPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="3">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#47#93#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/VideoPart.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/CommentBox.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/utils/CardLink.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/ReLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/MainpageLayout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/backup/MainVertical.less.js" />
-    <entry file="file://$PROJECT_DIR$/myApp/src/backup/MainVertical.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/backup/SideMenu.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/backup/SideMenuVertical.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/backup/MainpageLayoutVertical.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/CommentsBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/VideoPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/CourseListPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/Profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/Profile.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/IndexPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/routes/IndexPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/routes/LoginPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/routes/WelcomePage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/WritingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/utils/CardLink.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/LessonVideoPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#47#72#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/CourseList.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/VideoBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="71" column="57" lean-forward="false" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
+        <state relative-caret-position="407">
+          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ReadingUnitListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#71#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/TopicDetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#46#122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/.roadhogrc.mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/Reading/ReadingUnitList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MiniLessons/VideoAndComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ReadingUnitPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#94#119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionUnit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/TopicUnitListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/DiscussionUnitListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionDetailLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ModelUnitListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/DiscussionDetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="83" lean-forward="false" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/DiscussionBoard/DiscussionUnitList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="62" column="56" lean-forward="false" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/Publication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ModelDetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="e#46#122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/ModelWriting/ModelWritingUnitList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/plugin/Headshot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/PublicationPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/Publication/Publication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="e#48#101#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/ModelWriting/ModelDetailLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/public/ReadingExample.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/public/Draft.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="190" column="1" lean-forward="false" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingDetailLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/plugin/Editor.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/plugin/EditorPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ConferenceListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#72#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceDetailLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/plugin/HeadshotArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ConferenceDetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <marker date="1493769630000" expanded="true" signature="53:271" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MyDiary/DiaryLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#159#221#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/public/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/plugin/Calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/DiaryPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingTopic/TopicUnitList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+          <folding>
+            <element signature="e#1#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MainPage/MainpageLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/src/routes/WelcomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="390">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/HeaderTemp.less">
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/MyWritingUnitListPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/index.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MyWriting/MyWritingUnitList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/HeaderTemp.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="152" lean-forward="false" selection-start-line="14" selection-start-column="152" selection-end-line="14" selection-end-column="152" />
+        <state relative-caret-position="452">
+          <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/PreviewLayout.less">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingConference/ConferenceList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="332">
+          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/PreviewLayout.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/components/MainPage/MainPageHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#158#220#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/LoginPage.js">
+    <entry file="file://$PROJECT_DIR$/myApp/src/routes/MyWritingDetailPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/StarLogo.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/less/components/SideMenu.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/StarLogo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/MainpageLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/SideMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1493772639000" expanded="true" signature="53:270" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/.roadhogrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/VideoPart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="58" selection-end-column="2" />
-          <folding>
-            <element signature="e#934#2029#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/Video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/components/WritingTopic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#47#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/ProfilePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/routes/WritingTopicPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#47#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#917#1716#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/models/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/src/utils/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>

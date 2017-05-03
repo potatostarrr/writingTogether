@@ -4,6 +4,6 @@
     <option name="languageLevel" value="JSX" />
   </component>
   <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/myApp/src/backup/MainVertical.less.js" />
+    <file url="file://$PROJECT_DIR$/myApp/src/routes/EditorPage.js" />
   </component>
 </project>

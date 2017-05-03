@@ -5,7 +5,7 @@ import cookie from 'react-cookie'
 
 // 1. Initialize
  const app = dva({
-   history: browserHistory,
+   //history: browserHistory,
    onError(e) {
      console.log(e.message);
      switch (e.status){
